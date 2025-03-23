@@ -81,6 +81,7 @@ PetPal is an e-commerce platform facilitating pet adoption, where users can brow
 ![Pet Listing - User](./ui/pet-listing-user.png)
 ![Pet Details - User 1](./ui/pet-details-user-one.png)
 ![Pet Details - User 2](./ui/pet-details-user-two.png)
+![User Profile Details](./ui/user-profile-details.png)
 
 ### Authentication Design
 ![Login](./ui/login.png)

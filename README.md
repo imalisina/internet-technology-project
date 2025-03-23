@@ -70,6 +70,22 @@ PetPal is an e-commerce platform facilitating pet adoption, where users can brow
 ## Domain Model
 ![Domain Model](./domain-model.png)
 
+## UI Designs
+### Admin Dashboard Designs
+![Add New Pet - Admin](./ui/add-new-pet-admin.png)
+![Adoption Requests - Admin](./ui/adoption-requests-admin.png)
+![Show All Pets - Admin](./ui/show-all-pets-admin.png)
+![Update Specific Pet - Admin](./ui/update-specific-pet-admin.png)
+
+### User View Design
+![Pet Listing - User](./ui/pet-listing-user.png)
+![Pet Details - User 1](./ui/pet-details-user-one.png)
+![Pet Details - User 2](./ui/pet-details-user-two.png)
+
+### Authentication Design
+![Login](./ui/login.png)
+![Register](./ui/register.png)
+
 ---
 
 

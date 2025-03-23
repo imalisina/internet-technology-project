@@ -12,14 +12,14 @@ PetPal is an e-commerce platform facilitating pet adoption, where users can brow
 - **User**: Browses available pets, applies for adoption, and pays the adoption fee after confirmation.
 
 ### Preconditions:
-- Pets are added to the system with relevant details (breed, size, age, medical status, etc.).
+- Pets are added to the system with relevant details.
 - Users must be logged in to view and adopt pets.
 
 ### Basic Flow:
 #### User Actions:
 1. **User Login**: The user logs into their account.
 2. **Browse Pets**: The user views the list of available pets.
-3. **Select Pet**: The user selects a pet to adopt, using filters such as location, size, activity level, and adoption fee range.
+3. **Select Pet**: The user selects a pet to adopt.
 4. **Apply for Adoption**: The user fills out and submits the adoption form.
 5. **Receive Confirmation**: The system confirms the adoption request and provides payment instructions.
 6. **Pay Adoption Fee**: After the admin approves the adoption, the user pays the adoption fee on-site.
@@ -35,7 +35,7 @@ PetPal is an e-commerce platform facilitating pet adoption, where users can brow
 - Admins manage the pet inventory and process adoption applications effectively.
 
 ### Business Rule:
-**Pet Recommendations**: The system generates personalized recommendations based on user preferences like size, activity level, lifestyle compatibility, location, and adoption fee range.
+**Pet Recommendations**: The system generates personalized recommendations based on user preferences.
 
 ---
 
@@ -43,27 +43,18 @@ PetPal is an e-commerce platform facilitating pet adoption, where users can brow
 
 ### User Stories
 #### User:
-1. As a user, I want to browse a list of available pets based on my preferences (size, activity level, location, adoption fee range) so that I can find a pet that suits my lifestyle.
-2. As a user, I want to view detailed information about the pet (e.g., breed, size, age, medical status) so that I can make an informed adoption decision.
+1. As a user, I want to browse a list of available pets based on my preferences so that I can find a pet that suits my lifestyle.
+2. As a user, I want to view detailed information about the pet so that I can make an informed adoption decision.
 3. As a user, I want to apply for pet adoption online so that I can conveniently adopt a pet.
 4. As a user, I want to receive confirmation after submitting my adoption application, so that I know the next steps.
 5. As a user, I want to pay the adoption fee online after my adoption is confirmed so that the adoption process can be completed.
+6. As a user, I want to view my profile details after logging in so that I can see my personal information, such as my name, username, and other basic account details.
 
 #### Admin:
 1. As an admin, I want to log into the system so that I can manage pet adoption processes.
 2. As an admin, I want to add, edit, or remove pets from the inventory so that the system always has up-to-date pet listings.
 3. As an admin, I want to review adoption applications so that I can ensure responsible pet adoptions.
 4. As an admin, I want to approve or reject adoption applications so that I can facilitate appropriate matches between pets and users.
-
----
-
-## Profile Management
-### User Profile:
-- After logging in, users can view and update their profile details, including:
-  - **Personal Information**: Name, email, contact details.
-  - **Adoption History**: A list of past adopted pets and their details.
-  - **Current Applications**: Information about ongoing adoption applications.
-  - **Payment Details**: View payment history related to adoption fees.
 
 ---
 
